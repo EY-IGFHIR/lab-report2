@@ -1,7 +1,6 @@
 # lab-report.
 HL7 Italy - HL7 FHIR R4 Laboratory Report Implementation Guide.
 
-
 http://www.hl7.it/fhir/lab-report/
 
 # Ballot: Guida alla votazione
