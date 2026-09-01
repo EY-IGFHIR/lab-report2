@@ -4,6 +4,7 @@
 Alias: $conf = http://terminology.hl7.org/ValueSet/v3-Confidentiality
 Alias: $sct = http://snomed.info/sct
 Alias: $loinc = http://loinc.org
+Alias: $lab-type = http://hl7.eu/fhir/laboratory/ValueSet/lab-reportType-eu-lab
 Alias: $diagn-status = http://hl7.org/fhir/ValueSet/diagnostic-report-status
 Alias: $diagnosticreport-category = http://terminology.hl7.org/CodeSystem/v2-0074
 Alias: $diagnosticreport-category-valueset = http://hl7.org/fhir/ValueSet/diagnostic-service-sections 
@@ -13,7 +14,12 @@ Alias: $istat-professione = http://hl7.it/fhir/lab-report/ValueSet/istat-profess
 Alias: $istat-cittadinanza = http://hl7.it/fhir/lab-report/ValueSet/istat-cittadinanza
 Alias: $istat-luogoNascita = http://hl7.it/fhir/lab-report/ValueSet/istat-luogoNascita
 Alias: $practitionerRole-code = http://terminology.hl7.org/CodeSystem/practitioner-role
-
+Alias: $laboratory-accredited = http://hl7.eu/fhir/StructureDefinition/laboratory-accredited
+Alias: $specimen-container-device-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device
+Alias: $ext-annotation = http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.note
+Alias: $ext-annotationnote = http://hl7.org/fhir/StructureDefinition/annotationType|5.3.0
+Alias: $diagnosticReport-link-xver = http://hl7.org/fhir/StructureDefinition/alternate-reference|5.3.0
+Alias: $ext-composition = http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.composition
 //Alias: $asl = 	http://hl7.it/fhir/lab-report/ValueSet/uri-idAslRegione
 Alias: $tipo-org = http://hl7.it/fhir/lab-report/ValueSet/tipoOrganizzazione
 Alias: $Codice-Observation = http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-observations-uv-ips
@@ -55,7 +61,7 @@ Alias: $iso21090-SC-coding = http://hl7.org/fhir/StructureDefinition/iso21090-SC
 Alias: $iso21090-ADXP-streetName = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName
 Alias: $iso21090-ADXP-streetNameBase = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase
 Alias: $iso21090-ADXP-streetNameType = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType
-Alias: $iso21090-ADXP-houseNumber = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber
+Alias: $iso21090-ADXP-houseNumber = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber|5.2.0
 Alias: $istat-dug = 	http://hl7.it/fhir/lab-report/CodeSystem/dug
 Alias: $tipoEntita = http://hl7.it/fhir/lab-report/CodeSystem/it-tipoEntita
 Alias: $location-type = http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType
@@ -85,7 +91,13 @@ Alias: $SD-data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-abs
 Alias: $Range-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Range-uv-ips
 Alias: $Ratio-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Ratio-uv-ips
 Alias: $Quantity-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Quantity-uv-ips
-
+Alias: $iso21090-uncertainty = http://hl7.org/fhir/StructureDefinition/iso21090-uncertainty
+Alias: $iso21090-uncertaintyType = http://hl7.org/fhir/StructureDefinition/iso21090-uncertaintyType
+Alias: $cs-regioni = http://hl7.it/fhir/itcore/CodeSystem/cs-minsan-regione
+Alias: $cs-istat-comune = http://hl7.it/fhir/itcore/CodeSystem/istat-unitaAmministrativeTerritoriali
+Alias: $cs-istat-dug = http://hl7.it/fhir/itcore/CodeSystem/cs-istatdug
+Alias: $cs-istatprofessione = http://hl7.it/fhir/itcore/CodeSystem/istat-professioni
+Alias: $cs-titoloStudio = http://hl7.it/fhir/itcore/CodeSystem/istat-ctsi03
 //---Example
 Alias: $serviceRequest-category = http://example.it/FHIR/schema/serviceRequest-category
 Alias: $servicerequest-lab = http://example.it/FHIR/schema/servicerequest-englab
@@ -98,6 +110,7 @@ Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation
 Alias: $ext-dataEnterer-time = dataEnterer-time
 Alias: $sequelTo = http://hl7.org/fhir/StructureDefinition/observation-sequelTo
 Alias: $diagnostic-report-composition-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.composition
+Alias: $note = http://hl7.org/fhir/StructureDefinition/note
 Alias: $patient-citizenship = http://hl7.org/fhir/StructureDefinition/patient-citizenship
 //---ClinicalDocument
 Alias: $clinical-document = http://hl7.org/fhir/StructureDefinition/clinicaldocument
@@ -139,3 +152,24 @@ Alias: $aifa-nota = http://hl7.it/fhir/lab-report/CodeSystem/aifa-nota
 Alias: $icd-9-cm = http://hl7.org/fhir/sid/icd-9-cm
 Alias: $atc = http://www.whocc.no/atc
 
+//extension observation
+Alias: $ext-bodyStructure = http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.bodyStructure
+Alias: $ext-triggeredBy = http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy
+Alias: $ext-valueR5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.value
+Alias: $ext-supportingInfo = http://hl7.org/fhir/StructureDefinition/workflow-supportingInfo
+Alias: $ext-labTestKit = http://hl7.eu/fhir/laboratory/StructureDefinition/observation-deviceLabTestKit
+Alias: $ext-certifiedRefMaterialCodeable = http://hl7.eu/fhir/laboratory/StructureDefinition/observation-certifiedRefMaterialCodeable
+Alias: $ext-CertifiedRefMaterialIdentifer = http://hl7.eu/fhir/laboratory/StructureDefinition/observation-certifiedRefMaterialIdentifer
+Alias: $ext-Labaccredited = http://hl7.eu/fhir/StructureDefinition/laboratory-accredited
+Alias: $vs-observation-category = http://hl7.org/fhir/ValueSet/observation-category
+Alias: $ext-performerFunction = http://hl7.org/fhir/StructureDefinition/event-performerFunction
+
+Alias: $ext-versionNumber = http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version
+Alias: $ext-DiagnReportReference = http://hl7.eu/fhir/extensions/StructureDefinition/composition-diagnosticReportReference
+Alias: $ext-bodySite = http://hl7.org/fhir/StructureDefinition/bodySite
+
+//Alias: $cnd = http://www.dati.salute.gov.it/dataset/CND.jsp
+Alias: $cs-participationtype = http://terminology.hl7.org/CodeSystem/v3-ParticipationType
+Alias: $cs-coveragetype = 	http://terminology.hl7.org/CodeSystem/v3-ActCode
+
+Alias: $cs-role-it = http://hl7.it/fhir/itcore/CodeSystem/it-V3RoleCode

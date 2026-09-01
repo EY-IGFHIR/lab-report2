@@ -27,7 +27,10 @@ dependencies:
 
   #hl7.fhir.eu.laboratory: current  # ONLY for the ci build
 
-  hl7.fhir.eu.laboratory: 0.1.0
+  hl7.fhir.eu.laboratory: current
+  hl7.fhir.eu.extensions.r4: 1.3.0
+  hl7.fhir.it.core: 0.2.0
+  hl7.fhir.uv.xver-r5.r4: 0.1.0
 
   # hl7.fhir.uv.ips: current # ONLY for the ci build
   hl7.fhir.uv.ips: 1.1.0 
@@ -45,7 +48,7 @@ parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Pa
     - http://hl7.it/fhir/StructureDefinition/patient-qualification-it
     - http://hl7.it/fhir/StructureDefinition/recordCertification
     - http://hl7.it/fhir/StructureDefinition/address-dug
-  #  - http://hl7.it/fhir/StructureDefinition/information-recipient
+    - http://hl7.it/fhir/StructureDefinition/information-recipient
 
 pages:
   index.md:
@@ -89,34 +92,37 @@ groups:
       - StructureDefinition/Richiesta
       - StructureDefinition/Risultato
       - StructureDefinition/Campione
-      - StructureDefinition/Organizer
-  LabReportDOC:
-    name: Profili Risorse Documento FHIR
-    description: Profili risorse necessarie per produrre il documento FHIR Lab Report.
-    resources:
-      - StructureDefinition/bundle-it-lab
-      - StructureDefinition/composition-it-lab
-      - StructureDefinition/observation-doc-it-lab
-      - StructureDefinition/diagnosticreport-it-lab
-      - StructureDefinition/patient-it-lab
+      - StructureDefinition/Organizer   
   LabReportRES:
     name: Profili Risorse  
     description: Profili risorse specifiche per il dominio di Lab Report.
     resources:
+      - StructureDefinition/bundle-it-lab
+      - StructureDefinition/composition-it-lab  
+      - StructureDefinition/diagnosticreport-it-lab
+      #- StructureDefinition/patient-it-lab
       - StructureDefinition/observation-it-lab
+      - StructureDefinition/observation-doc-it-lab
+      - StructureDefinition/observation-grouping-it-lab
       - StructureDefinition/specimen-it-lab
       - StructureDefinition/media-it-lab      
       - StructureDefinition/encounter-it-lab
       - StructureDefinition/servicerequest-it-lab
       - StructureDefinition/location-it-lab
-      - StructureDefinition/practitionerrole-it-lab
-      - StructureDefinition/practitionerrole-MMGPLS-it-lab
-      - StructureDefinition/practitioner-it-lab
-      - StructureDefinition/organization-it-lab
-      - StructureDefinition/organizationOperatore-it-lab
+       #- StructureDefinition/practitionerrole-it-lab
+       #- StructureDefinition/practitionerrole-MMGPLS-it-lab
+       #- StructureDefinition/practitioner-it-lab
+       #- StructureDefinition/organization-it-lab
+       #- StructureDefinition/organizationOperatore-it-lab
       - StructureDefinition/device-it-lab
-      - StructureDefinition/substance-additive-specimen-it-lab
-      - StructureDefinition/observation-grouping-it-lab
+      - StructureDefinition/substance-additive-specimen-it-lab   
+  LabReportDataTypes:
+    name:  DataTypes 
+    description: Profili datatypes necessari per produrre il documento FHIR Lab Report.
+    resources:
+      - StructureDefinition/quantity-it-lab
+      - StructureDefinition/Range-it-lab
+      - StructureDefinition/Ratio-it-lab
   LabReportCSTerminology:
     name: Terminology - Code Systems  
     description: Codesystems per il dominio di Lab Report. I seguenti CodeSystems successivamente saranno spostati all'interno della Guida Terminologica Italiana.
