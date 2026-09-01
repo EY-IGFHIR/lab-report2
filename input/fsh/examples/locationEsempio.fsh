@@ -28,3 +28,6 @@ Description: "Esempio di location: struttura ospedaliera di Roma."
 * address[=].type = #physical
 * address[=].postalCode = "00144"
 * address[=].city = "ROMA"
+* address[=].state = $minsan-regione#120 "Lazio"
+* address[=].country = $CS_Estero#100 "Italia"
+* address.use = #billing
