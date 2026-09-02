@@ -6,7 +6,7 @@ Description: "Esempio di organizzazione ASL rappresentata tramite il profilo Org
 
 
 * id = "3c75bf31-bd32-4c0f-9e4a-585d20c08ce4"
-* identifier[aslRegione].system = "urn:oid:2.16.840.1.113883.2.9.4.1.1"
+* identifier[aslRegione].system = $cs-asl 
 * identifier[aslRegione].value = #120202
 * active = 	true
 //* type = $CS-tipoEntita#asl "Azienda Sanitaria Locale"

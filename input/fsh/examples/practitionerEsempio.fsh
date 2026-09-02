@@ -6,7 +6,7 @@ Description: "Esempio di un professionista sanitario: medico."
 * id = "dc5842a1-83b6-43c7-b063-75ae989b803d"
 
 * identifier.use = #official
-* identifier[codiceFiscale].system = "urn:oid:2.16.840.1.113883.2.9.4.3.2"
+* identifier[codiceFiscale].system = $cf
 * identifier[codiceFiscale].value = "MDCPRV80A01H501G"
 
 

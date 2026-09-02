@@ -14,7 +14,7 @@ Description: "Questo value set definisce una serie di codici per rappresentare l
 * $v3-MaritalStatus#W "Vedovo/a"
 * $v3-MaritalStatus#L "Separato/a Legalmente"
 * $v3-MaritalStatus#A "Annullato"
-* $v3-NullFlavor#UNK "Sconosciuto"
+* $v3-NullFlavor#UNK "unknown"
 * CsIstatStatoCivile#6 "Unito civilmente"
 * CsIstatStatoCivile#7 "Stato libero a seguito di decesso della parte unita civilmente"
 * CsIstatStatoCivile#8 "Stato libero a seguito di scioglimento dell'unione"

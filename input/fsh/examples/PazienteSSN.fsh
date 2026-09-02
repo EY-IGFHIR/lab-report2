@@ -18,7 +18,7 @@ Description: "Esempio di un paziente: soggetto iscritto al Sistema Sanitario Naz
 * extension[professione].valueCodeableConcept = $cs-istatprofessione#5.4.8.4 "Vigili del fuoco e professioni assimilate"
 * extension[titoloStudio].valueCodeableConcept = $cs-titoloStudio#40502000 "Diploma di istruzione secondaria superiore di Liceo classico"
 
-* identifier[codiceFiscale].system = "urn:oid:2.16.840.1.113883.2.9.4.3.2"
+* identifier[codiceFiscale].system = $cf
 * identifier[codiceFiscale].value = "GRGVRD06D02F611G" 
 * identifier[codiceFiscale].extension[certificazioneId].extension[when].valueDateTime = "2024-09-01"
 

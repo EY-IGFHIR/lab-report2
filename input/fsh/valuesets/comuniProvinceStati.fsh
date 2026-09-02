@@ -455,7 +455,7 @@ Description: "ISTAT - Comuni più sconosciuto"
 //----------------------------------------
 * include codes from system $istatUnitaAmministrativeTerritoriali  
 * codes from system $CS_unitaTerritoriali
-* $v3-NullFlavor#UNK "Sconosciuto"
+* $v3-NullFlavor#UNK "unknown"
 
 ValueSet: VsIstatProvincia
 Id: istat-provincia
@@ -463,7 +463,7 @@ Title: "ISTAT - Province"
 Description: "ISTAT - Province più sconosciuto"
 * ^experimental = false
 //----------------------------------------
-* $v3-NullFlavor#UNK "Sconosciuto"
+* $v3-NullFlavor#UNK "unknown"
 * codes from system CsProvinceISTAT
 
 

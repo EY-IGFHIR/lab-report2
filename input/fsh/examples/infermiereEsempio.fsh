@@ -5,7 +5,7 @@ Description: "Esempio di un professionista sanitario: infermiere."
 
 * id = "134a0bb1-aa0a-46b9-aa1e-a5d0e379e77c"
 * identifier.use = #official
-* identifier[codiceFiscale].system = "urn:oid:2.16.840.1.113883.2.9.4.3.2"
+* identifier[codiceFiscale].system = $cf
 * identifier[codiceFiscale].value = "CTRMNN75E42H501H"
 
 * name.use = #usual
