@@ -240,14 +240,14 @@ Description: "ISTAT - Titolo Studio"
 * codes from system $CS_TitoloStudioIstat
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsIstatProfessionePaziente
-Id: istat-professione
-Title: "ISTAT - Professioni"
-Description: "ISTAT - Professioni"
-* ^experimental = false
+// ValueSet: VsIstatProfessionePaziente
+// Id: istat-professione
+// Title: "ISTAT - Professioni"
+// Description: "ISTAT - Professioni"
+// * ^experimental = false
 
-//-------------------------------------------------------------------------------------------
-* codes from system $CS_ProfessioniIstat
+// //-------------------------------------------------------------------------------------------
+// * codes from system $CS_ProfessioniIstat
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

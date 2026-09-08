@@ -111,7 +111,7 @@ Alias: $iso21090-uncertaintyType = http://hl7.org/fhir/StructureDefinition/iso21
 Alias: $cs-regioni = http://hl7.it/fhir/itcore/CodeSystem/cs-minsan-regione
 Alias: $cs-istat-comune = http://hl7.it/fhir/itcore/CodeSystem/istat-unitaAmministrativeTerritoriali
 Alias: $cs-istat-dug = http://hl7.it/fhir/itcore/CodeSystem/cs-istatdug
-Alias: $cs-istatprofessione = http://hl7.it/fhir/itcore/CodeSystem/istat-professioni
+//Alias: $cs-istatprofessione = http://hl7.it/fhir/itcore/CodeSystem/istat-professioni
 Alias: $cs-titoloStudio = http://hl7.it/fhir/itcore/CodeSystem/istat-ctsi03
 //---Example
 Alias: $serviceRequest-category = http://example.it/FHIR/schema/serviceRequest-category
