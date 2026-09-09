@@ -112,13 +112,13 @@ Description: "Codifica geografica standardizzata"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsMinsanregione
-Id: minsan-regione
-Title: "MDS - Codici Regionali"
-Description: "MDS - Codici Regionali usati nei file FLS11. La regione Trentino Alto-Adige è rappresentata dalle province autonome di cui è composta."
-//-------------------------------------------------------------------------------------------
-* ^experimental = false
-* codes from system $MinSanRegioni
+// ValueSet: VsMinsanregione
+// Id: minsan-regione
+// Title: "MDS - Codici Regionali"
+// Description: "MDS - Codici Regionali usati nei file FLS11. La regione Trentino Alto-Adige è rappresentata dalle province autonome di cui è composta."
+// //-------------------------------------------------------------------------------------------
+// * ^experimental = false
+// * codes from system $MinSanRegioni
 
 
 
@@ -141,13 +141,13 @@ Description: "Tipo di Entità (organizzazione o persona) che ha certificato un c
 * $V3RoleCode#subject
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsTipoOrganizzazione
-Id: tipoOrganizzazione
-Title: "Tipo organizzazione (esempio)"
-Description: "Tipo di organizzazione: value set di esempio"
-//-------------------------------------------------------------------------------------------
-* ^experimental = false
-* codes from system $CS_tipoEntita
+// ValueSet: VsTipoOrganizzazione
+// Id: tipoOrganizzazione
+// Title: "Tipo organizzazione (esempio)"
+// Description: "Tipo di organizzazione: value set di esempio"
+// //-------------------------------------------------------------------------------------------
+// * ^experimental = false
+// * codes from system $CS_tipoEntita
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsTipoOrgSocioSanitaria
@@ -251,12 +251,12 @@ Description: "ISTAT - Titolo Studio"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsIstatDug
-Id: istat-dug
-Title: "ISTAT - DUG"
-Description: "ISTAT - Registro delle Denominazioni Urbanistiche Generiche (DUG)"
-* ^experimental = false
-* codes from system http://hl7.it/fhir/lab-report/CodeSystem/dug //http://registry.geodati.gov.it/dug
+// ValueSet: VsIstatDug
+// Id: istat-dug
+// Title: "ISTAT - DUG"
+// Description: "ISTAT - Registro delle Denominazioni Urbanistiche Generiche (DUG)"
+// * ^experimental = false
+// * codes from system http://hl7.it/fhir/lab-report/CodeSystem/dug //http://registry.geodati.gov.it/dug
 
 //=========================
 ValueSet: VsUriIdAslRegione
