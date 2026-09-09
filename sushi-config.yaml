@@ -169,7 +169,7 @@ groups:
       - ValueSet/istat-statoCivile-vs
       - ValueSet/istat-titoloStudio
       - ValueSet/URI-idStp
-      - ValueSet/uri-idAslRegione
+      #- ValueSet/uri-idAslRegione
       - ValueSet/minsan-asl
       #- ValueSet/minsan-regione
       - ValueSet/minsan-esenzioni

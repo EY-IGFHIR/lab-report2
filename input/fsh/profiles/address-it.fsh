@@ -33,7 +33,7 @@ Description: "Descrizione di Address con parti addizionali specifiche per gli in
 * line.extension[dugCode] ^short = "Codice Denominazione Urbanistica Generica (DUG)"
 * line.extension[dugCode] ^alias[0] = "specie"
 * line.extension[dugCode] ^example.label = "ex-1"
-* line.extension[dugCode] ^example.valueCodeableConcept = $istat-dug#67 "via"
+* line.extension[dugCode] ^example.valueCodeableConcept = $cs-istat-dug#67 "via"
 * line.extension[denominazioneUrbanisticaUfficiale] ^short = "Denominazione Urbanistica Ufficiale (DUF)"
 * line.extension[denominazioneUrbanisticaUfficiale] ^alias[0] = "denominazione"
 * line.extension[denominazioneUrbanisticaUfficiale] ^example.label = "ex-1"

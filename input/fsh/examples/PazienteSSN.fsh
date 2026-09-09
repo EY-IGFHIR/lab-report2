@@ -96,7 +96,7 @@ Description: "Esempio di un paziente: soggetto iscritto al Sistema Sanitario Naz
 // * address.line = "Via della Libertà, 52"
 // * address.use = #home
 // //* address.extension[residenza].valueBoolean = true
-// //* address.line.extension[dugCode].valueCodeableConcept  = $istat-DUG-CS#67 "via"
+// //* address.line.extension[dugCode].valueCodeableConcept  = $cs-istat-dug#67 "via"
 
 // * contact[0].name.family = "Rossi"
 // * contact[0].name.given = "Luigi"
