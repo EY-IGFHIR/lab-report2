@@ -5,7 +5,7 @@ Description: "MDS - ASL"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
 * ^status = #active
-* include codes from system http://hl7.it/fhir/lab-report/CodeSystem/cs-asl
+* include codes from system $cs-asl
 
 
 ValueSet: VsTipoCampione

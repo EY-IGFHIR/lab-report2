@@ -131,7 +131,7 @@ groups:
       - CodeSystem/administrative-gender
       - CodeSystem/it-V3RoleCode
       - CodeSystem/it-identifier-type
-      - CodeSystem/it-tipoEntita
+      #- CodeSystem/it-tipoEntita
       - CodeSystem/v3-MaritalStatus
       - CodeSystem/istat-ctsi03
       #- CodeSystem/istat-professioni

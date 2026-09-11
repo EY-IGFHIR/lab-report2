@@ -129,15 +129,15 @@ Title: "Tipo certificatore"
 Description: "Tipo di Entità (organizzazione o persona) che ha certificato un certo record"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
-* $CS_tipoEntita#gov
-* $CS_tipoEntita#mef
-* $CS_tipoEntita#regione
-* $CS_tipoEntita#comune
-* $CS_tipoEntita#as
-* $CS_tipoEntita#asl
-* $CS_tipoEntita#ric-hsp
-* $CS_tipoEntita#ao
-* $CS_tipoEntita#dist-san
+* $tipoEntita#gov
+* $tipoEntita#mef
+* $tipoEntita#regione
+* $tipoEntita#comune
+* $tipoEntita#as
+* $tipoEntita#asl
+* $tipoEntita#ric-hsp
+* $tipoEntita#ao
+* $tipoEntita#dist-san
 * $V3RoleCode#subject
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -147,7 +147,7 @@ Description: "Tipo di Entità (organizzazione o persona) che ha certificato un c
 // Description: "Tipo di organizzazione: value set di esempio"
 // //-------------------------------------------------------------------------------------------
 // * ^experimental = false
-// * codes from system $CS_tipoEntita
+// * codes from system $tipoEntita
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsTipoOrgSocioSanitaria
@@ -156,22 +156,22 @@ Title: "Tipo organizzazione socio-sanitaria"
 Description: "Tipo di organizzazione socio-sanitaria"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
-* $CS_tipoEntita#as
-* $CS_tipoEntita#asl
-* $CS_tipoEntita#ric-hsp
-* $CS_tipoEntita#ao
-* $CS_tipoEntita#aou
-* $CS_tipoEntita#irccs
-* $CS_tipoEntita#irccs-pub
-* $CS_tipoEntita#irccs-priv
-* $CS_tipoEntita#irccs-fond
-* $CS_tipoEntita#ente-ric-hsp
-* $CS_tipoEntita#osp-dir
-* $CS_tipoEntita#pol-univ
-* $CS_tipoEntita#cc-priv
-* $CS_tipoEntita#cc-priv-a
-* $CS_tipoEntita#cc-priv-na
-* $CS_tipoEntita#dist-san
+* $tipoEntita#as
+* $tipoEntita#asl
+* $tipoEntita#ric-hsp
+* $tipoEntita#ao
+* $tipoEntita#aou
+* $tipoEntita#irccs
+* $tipoEntita#irccs-pub
+* $tipoEntita#irccs-priv
+* $tipoEntita#irccs-fond
+* $tipoEntita#ente-ric-hsp
+* $tipoEntita#osp-dir
+* $tipoEntita#pol-univ
+* $tipoEntita#cc-priv
+* $tipoEntita#cc-priv-a
+* $tipoEntita#cc-priv-na
+* $tipoEntita#dist-san
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsMmgPlsRoles

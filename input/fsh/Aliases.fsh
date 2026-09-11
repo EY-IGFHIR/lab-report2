@@ -133,7 +133,7 @@ Alias: $CodeableConcept-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/
 Alias: $basedOnOrder = http://hl7.eu/fhir/StructureDefinition/composition-basedOn-order-or-requisition
 Alias: $informationRecipient = http://hl7.eu/fhir/StructureDefinition/information-recipient
 //Alias: $it-tipoEntita = http://hl7.it/fhir/lab-report/CodeSystem/it-tipoEntita
-Alias: $it-tipoEntita = http://hl7.it/fhir/itcore/CodeSystem/it-tipoEntita
+//Alias: $it-tipoEntita = http://hl7.it/fhir/itcore/CodeSystem/it-tipoEntita
 
 Alias: $minsan-regione = http://hl7.it/fhir/lab-report/CodeSystem/minsan-regione
 //Alias: $UriHsp =  http://hl7.it/fhir/lab-report/CodeSystem/cs-mds-idStruttureInterne
@@ -144,7 +144,7 @@ Alias: $cs_strttureInterne = http://hl7.it/fhir/lab-report/CodeSystem/cs-mds-idS
 Alias: $uri = urn:ietf:rfc:3986
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $iso3166 = urn:iso:std:iso:3166
-Alias: $CS_tipoEntita = http://hl7.it/fhir/lab-report/CodeSystem/it-tipoEntita
+//Alias: $CS_tipoEntita = http://hl7.it/fhir/lab-report/CodeSystem/it-tipoEntita
 Alias: $UriHsp = http://hl7.it/fhir/lab-report/CodeSystem/minsan-hsp
 Alias: $LOINC = http://loinc.org
 Alias: $oid = urn:ietf:rfc:1155
