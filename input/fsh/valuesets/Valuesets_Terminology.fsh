@@ -71,44 +71,44 @@ Description: "Sistema di identificazione delle persone fisiche"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsEHICCountryCodes
-Id: iso-ehicCountryCode
-Title: "ISO 3166 - EHIC Country Codes"
-Description: "Codifica geografica standardizzata"
-//-------------------------------------------------------------------------------------------
-* ^experimental = false
-* ^copyright = "ISO Maintains the copyright on the country codes, and controls it's use carefully. For further details, see the ISO 3166 Home Page"
-* $iso3166#AT "Austria"
-* $iso3166#BE "Belgium"
-* $iso3166#BG "Bulgaria"
-* $iso3166#HR "Croatia"
-* $iso3166#CY "Cyprus"
-* $iso3166#CZ "Czech Republic"
-* $iso3166#DK "Denmark"
-* $iso3166#EE "Estonia"
-* $iso3166#FI "Finland"
-* $iso3166#FR "France"
-* $iso3166#GR "Greece"
-* $iso3166#DE "Germany"
-* $iso3166#HU "Hungary"
-* $iso3166#IE "Ireland"
-* $iso3166#IT "Italy" 
-* $iso3166#LV "Latvia"
-* $iso3166#LT "Lithuania" 
-* $iso3166#LU "Luxembourg" 
-* $iso3166#MT "Malta" 
-* $iso3166#NL "Netherlands"
-* $iso3166#PL "Poland"
-* $iso3166#PT "Portugal" 
-* $iso3166#RO "Romania"
-* $iso3166#SK "Slovakia" 
-* $iso3166#SI "Slovenia"
-* $iso3166#ES "Spain" 
-* $iso3166#SE "Sweden"
-* $iso3166#IS "Iceland"
-* $iso3166#LI "Liechtenstein"
-* $iso3166#NO "Norway"
-* $iso3166#CH "Switzerland"
+// ValueSet: VsEHICCountryCodes
+// Id: iso-ehicCountryCode
+// Title: "ISO 3166 - EHIC Country Codes"
+// Description: "Codifica geografica standardizzata"
+// //-------------------------------------------------------------------------------------------
+// * ^experimental = false
+// * ^copyright = "ISO Maintains the copyright on the country codes, and controls it's use carefully. For further details, see the ISO 3166 Home Page"
+// * $iso3166#AT "Austria"
+// * $iso3166#BE "Belgium"
+// * $iso3166#BG "Bulgaria"
+// * $iso3166#HR "Croatia"
+// * $iso3166#CY "Cyprus"
+// * $iso3166#CZ "Czech Republic"
+// * $iso3166#DK "Denmark"
+// * $iso3166#EE "Estonia"
+// * $iso3166#FI "Finland"
+// * $iso3166#FR "France"
+// * $iso3166#GR "Greece"
+// * $iso3166#DE "Germany"
+// * $iso3166#HU "Hungary"
+// * $iso3166#IE "Ireland"
+// * $iso3166#IT "Italy" 
+// * $iso3166#LV "Latvia"
+// * $iso3166#LT "Lithuania" 
+// * $iso3166#LU "Luxembourg" 
+// * $iso3166#MT "Malta" 
+// * $iso3166#NL "Netherlands"
+// * $iso3166#PL "Poland"
+// * $iso3166#PT "Portugal" 
+// * $iso3166#RO "Romania"
+// * $iso3166#SK "Slovakia" 
+// * $iso3166#SI "Slovenia"
+// * $iso3166#ES "Spain" 
+// * $iso3166#SE "Sweden"
+// * $iso3166#IS "Iceland"
+// * $iso3166#LI "Liechtenstein"
+// * $iso3166#NO "Norway"
+// * $iso3166#CH "Switzerland"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -236,8 +236,7 @@ Title: "ISTAT - Titolo Studio"
 Description: "ISTAT - Titolo Studio"
 * ^experimental = false
 
-//-------------------------------------------------------------------------------------------
-* codes from system $CS_TitoloStudioIstat
+* codes from system $cs-titoloStudio
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // ValueSet: VsIstatProfessionePaziente
@@ -315,17 +314,17 @@ Description: "Identificativi regionali per ASL a 3 caratteri, come da file minis
 
 
 //=========================
-ValueSet: UriIdEni
-Id: uri-idEni
-Title: "Identificativi per codici ENI regionali"
-Description: "Identificativi per codici ENI regionali."
-* ^experimental = false
-* ^copyright = "Copyright (C) The Internet Society (2005)"
-* $uri#http://hl7.it/sid/eni "Codici ENI"
-* $uri#http://hl7.it/sid/lazio/eni "Codici ENI - Lazio"
-* $uri#http://hl7.it/sid/piemonte/eni  "Codici ENI - Piemonte"
-* $uri#http://hl7.it/sid/vallee/eni "Codici ENI - Valle d'Aosta"
-* $uri#urn:oid:2.16.840.1.113883.2.9.2.50.4.1.4 "Codici ENI - Veneto"
+// ValueSet: UriIdEni
+// Id: uri-idEni
+// Title: "Identificativi per codici ENI regionali"
+// Description: "Identificativi per codici ENI regionali."
+// * ^experimental = false
+// * ^copyright = "Copyright (C) The Internet Society (2005)"
+// * $uri#http://hl7.it/sid/eni "Codici ENI"
+// * $uri#http://hl7.it/sid/lazio/eni "Codici ENI - Lazio"
+// * $uri#http://hl7.it/sid/piemonte/eni  "Codici ENI - Piemonte"
+// * $uri#http://hl7.it/sid/vallee/eni "Codici ENI - Valle d'Aosta"
+// * $uri#urn:oid:2.16.840.1.113883.2.9.2.50.4.1.4 "Codici ENI - Veneto"
 //=========================
 
 

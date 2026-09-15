@@ -8,7 +8,7 @@ Description: "Esempio di un PractitionerRole: medico di medicina generale."
 // * identifier.system = "http://esempio_policlinico.it/codiceEmatologo"
 // * identifier.value = "12345"
 * identifier.use = #official
-* identifier.system = "http://hl7.it/sid/codiceFiscale" 
+* identifier.system = $cf 
 * identifier.value = "MDCPRV80A01H501G"
 
 
