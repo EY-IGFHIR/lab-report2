@@ -11,9 +11,12 @@ Description: "Descrizione del referto di laboratorio tramite il profilo della ri
 * language 1..1  
 * language ^short = "Metadato che indica la lingua utilizzata per descrivere la risorsa."
 * extension contains $ext-versionNumber named versionNumber 0..1
+* extension[versionNumber].value[x] only string
 * extension contains $informationRecipient named information-recipient 0..*
 * extension contains $basedOnOrder named basedOn-order-or-requisition 0..* //extension mantenuta da IG Lab IT precedente, assente in EU Lab
 * extension contains $ext-DiagnReportReference named diagnosticReportReference 0..1
+* extension[diagnosticReportReference].valueReference 1..1
+* extension[diagnosticReportReference].valueReference.reference 1..
 * extension contains composition-dataenterer-it named dataEnterer 0..* //extension mantenuta da IG Lab IT precedente, assente in EU Lab
 * extension[dataEnterer] ^short = "Persona o dispositivo che trasforma un testo dettato nel documento FHIR."
 * extension[information-recipient] ^short = "Professionisti sanitari che ricevono una copia del documento (es. MMG/PLS)."

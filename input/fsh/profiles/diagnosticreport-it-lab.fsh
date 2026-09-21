@@ -15,7 +15,7 @@ Description: "Descrizione delle informazioni cliniche tramite il profilo della r
 * extension[DiagnosticReportCompositionR5].value[x] ^short = "Reference a Composition."
 * extension[DiagnosticReportCompositionR5].value[x] only Reference(composition-it-lab)
 * extension[note].value[x].extension contains $ext-annotationnote named noteType 0..1
-* extension[note].value[x].authorReference only Reference(PractitionerItcore or OrganizationItCore or PatientItcore or RelatedPerson)
+* extension[note].value[x].author[x] only string or Reference(PractitionerItcore or OrganizationItCore or PatientItcore or RelatedPerson)
 
 * insert ReportIdentifierRule 
 

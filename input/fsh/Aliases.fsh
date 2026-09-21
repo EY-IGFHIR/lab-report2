@@ -185,6 +185,8 @@ Alias: $ext-DiagnReportReference = http://hl7.eu/fhir/extensions/StructureDefini
 Alias: $ext-bodySite = http://hl7.org/fhir/StructureDefinition/bodySite
 
 //Alias: $cnd = http://www.dati.salute.gov.it/dataset/CND.jsp
+Alias: $cs-cnd =  http://hl7.it/fhir/lab-report/CodeSystem/cs-cnd
+Alias: $vs-cnd =  http://hl7.it/fhir/lab-report/ValueSet/vs-cnd
 Alias: $cs-participationtype = http://terminology.hl7.org/CodeSystem/v3-ParticipationType
 Alias: $cs-coveragetype = 	http://terminology.hl7.org/CodeSystem/v3-ActCode
 

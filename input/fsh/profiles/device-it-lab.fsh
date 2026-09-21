@@ -27,6 +27,6 @@ Description: "Descrizione di un dispositivo tramite il profilo della risorsa Dev
 * type.coding ^slicing.ordered = false
 * type.coding contains
     CND 0..1 
-* type.coding[CND] ^short = "Codice di classificazione nazionale dei dispositivi medici (CND oid:2.16.840.1.113883.2.9.6.1.48)."
-* type.coding[CND].system = "urn:oid:2.16.840.1.113883.2.9.6.1.48"
-//* type.coding[CND].system from $cnd (preferred)
+* type.coding[CND] ^short = "Codice di classificazione nazionale dei dispositivi medici."
+* type.coding[CND].system = $cs-cnd 
+* type.coding[CND].code from $vs-cnd (preferred)

@@ -21,6 +21,8 @@ Description: "Descrizione delle informazioni del campione tramite il profilo del
 * processing.additive only Reference(SpecimenAdditiveSubstanceRefertoLabIt)
 * processing.additive ^short = "Additivo."
 
+* parent only Reference(SpecimenRefertoLabIt)
+
 * container.type from $campione-container-lab-it (preferred)
 * container.type ^short = "Tipo di dispositivo utilizzato per il contenere il campione."
 

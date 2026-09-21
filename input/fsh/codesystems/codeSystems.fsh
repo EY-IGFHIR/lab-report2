@@ -1310,3 +1310,13 @@ Description: "MDS - Identificativi Strutture Interne di Ricovero"
 * #200905.02 "Stabilimento SS. Annunziata"
 * #200906.01 "San Giovanni di Dio"
 * #200906.02 "Policlinico Monserrato"
+
+//------------------------------------------------------------------------
+CodeSystem: CsCnd
+Id: cs-cnd
+Title: "CND - Classificazione Nazionale dei Dispositivi medici"
+Description: "Sistema di codifica CND (Classificazione Nazionale dei Dispositivi Medici). Questo CodeSystem è dichiarato esclusivamente a fini di interoperabilità e non include i concetti. Per la classificazione ufficiale si rimanda alla fonte istituzionale del Ministero della Salute: https://www.salute.gov.it/portale/temi/SceltaDispomedDispositivi.jsp."
+* ^experimental = false
+* ^caseSensitive = true
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.48"
+* ^content = #not-present

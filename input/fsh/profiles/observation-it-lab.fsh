@@ -72,7 +72,7 @@ Description: "Descrizione delle rilevazioni cliniche tramite il profilo della ri
   * ^requirements = "EHDSObservation.component"
   * extension contains $ext-valueR5 named value-r5 0..1
   * extension[value-r5]
-    * value[x] only Attachment
+    * value[x] only Attachment or Reference(MolecularSequence)
     * ^short = "only for Diagrams or Pictures"
     * ^definition = "When the result is a Diagram or Picture (Microbiology), then the Attachment data type should be used. In FHIR R4 this can be done by preadopting the R5 Observation.value[x] element using the cross-version extension."
   * valueQuantity only QuantityLab 
