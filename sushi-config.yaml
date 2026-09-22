@@ -39,15 +39,15 @@ parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Pa
 #  produce-jekyll-data: true
 
   special-url:
-    - http://hl7.org/fhir/StructureDefinition/address-official
+    # - http://hl7.org/fhir/StructureDefinition/address-official
     - http://hl7.it/fhir/StructureDefinition/composition-basedOn-order-or-requisition-it
     - http://hl7.it/fhir/StructureDefinition/composition-dataenterer-it
     - http://hl7.it/fhir/StructureDefinition/dataEnterer-time
-    - http://hl7.it/fhir/StructureDefinition/patient-codeableBirthPlace
-    - http://hl7.it/fhir/StructureDefinition/patient-occupation-it
-    - http://hl7.it/fhir/StructureDefinition/patient-qualification-it
+    # - http://hl7.it/fhir/StructureDefinition/patient-codeableBirthPlace
+    # - http://hl7.it/fhir/StructureDefinition/patient-occupation-it
+    # - http://hl7.it/fhir/StructureDefinition/patient-qualification-it
     - http://hl7.it/fhir/StructureDefinition/recordCertification
-    - http://hl7.it/fhir/StructureDefinition/address-dug
+    # - http://hl7.it/fhir/StructureDefinition/address-dug
     - http://hl7.it/fhir/StructureDefinition/information-recipient
 
 pages:
@@ -130,17 +130,18 @@ groups:
       #- CodeSystem/aifa-aic
       #- CodeSystem/administrative-gender
       - CodeSystem/it-V3RoleCode
+      - CodeSystem/cs-cnd
       #- CodeSystem/it-identifier-type
       #- CodeSystem/it-tipoEntita
-      - CodeSystem/v3-MaritalStatus
-      - CodeSystem/istat-ctsi03
+      #- CodeSystem/v3-MaritalStatus
+      #- CodeSystem/istat-ctsi03
       #- CodeSystem/istat-professioni
       #- CodeSystem/istat-comuni
       #- CodeSystem/istat-continente
       #- CodeSystem/province-istat
       #- CodeSystem/dug
       #- CodeSystem/istat-ripartizione-geografica
-      - CodeSystem/istat-statoCivile
+      #- CodeSystem/istat-statoCivile
      #- CodeSystem/istat-unitaAmministrativeTerritorialiEstere
       #- CodeSystem/istat-unitaAmministrativeTerritoriali
       #- CodeSystem/cs-asl
@@ -154,6 +155,7 @@ groups:
     resources:
       - ValueSet/aifa-aic
       - ValueSet/additivo-campione-it
+      - ValueSet/vs-cnd
       #- ValueSet/vs-anagrafi-regionali
       - ValueSet/lab-orderCodes-it-lab
       - ValueSet/campione-container-lab-it
@@ -166,7 +168,7 @@ groups:
       #- ValueSet/istat-professione
       #- ValueSet/istat-provincia
       #- ValueSet/istat-stato
-      - ValueSet/istat-statoCivile-vs
+      #- ValueSet/istat-statoCivile-vs
       - ValueSet/istat-titoloStudio
       #- ValueSet/URI-idStp
       #- ValueSet/uri-idAslRegione
@@ -182,7 +184,7 @@ groups:
       - ValueSet/valueset-observation-value-microorganism
       - ValueSet/valueset-observation-value-presence-absence
       - ValueSet/sezione-referto-laboratorio
-      - ValueSet/statoCivile
+      #- ValueSet/statoCivile
       - ValueSet/tipo-campione
       - ValueSet/risultato-osservazione
       #- ValueSet/tipo-campione-lab-it
@@ -201,6 +203,6 @@ groups:
     name: Terminology - Concept Maps
     description: La seguente Concept Maps successivamente sarà spostata all'interno della Guida Terminologica Italiana.
     resources:
-    - ConceptMap/ConceptMap-statoCivile
+    #- ConceptMap/ConceptMap-statoCivile
 
 

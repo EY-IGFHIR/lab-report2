@@ -150,28 +150,28 @@ Description: "Tipo di Entità (organizzazione o persona) che ha certificato un c
 // * codes from system $tipoEntita
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsTipoOrgSocioSanitaria
-Id: tipoOrgSocioSanitaria
-Title: "Tipo organizzazione socio-sanitaria"
-Description: "Tipo di organizzazione socio-sanitaria"
-//-------------------------------------------------------------------------------------------
-* ^experimental = false
-* $tipoEntita#as
-* $tipoEntita#asl
-* $tipoEntita#ric-hsp
-* $tipoEntita#ao
-* $tipoEntita#aou
-* $tipoEntita#irccs
-* $tipoEntita#irccs-pub
-* $tipoEntita#irccs-priv
-* $tipoEntita#irccs-fond
-* $tipoEntita#ente-ric-hsp
-* $tipoEntita#osp-dir
-* $tipoEntita#pol-univ
-* $tipoEntita#cc-priv
-* $tipoEntita#cc-priv-a
-* $tipoEntita#cc-priv-na
-* $tipoEntita#dist-san
+// ValueSet: VsTipoOrgSocioSanitaria
+// Id: tipoOrgSocioSanitaria
+// Title: "Tipo organizzazione socio-sanitaria"
+// Description: "Tipo di organizzazione socio-sanitaria"
+// //-------------------------------------------------------------------------------------------
+// * ^experimental = false
+// * $tipoEntita#as
+// * $tipoEntita#asl
+// * $tipoEntita#ric-hsp
+// * $tipoEntita#ao
+// * $tipoEntita#aou
+// * $tipoEntita#irccs
+// * $tipoEntita#irccs-pub
+// * $tipoEntita#irccs-priv
+// * $tipoEntita#irccs-fond
+// * $tipoEntita#ente-ric-hsp
+// * $tipoEntita#osp-dir
+// * $tipoEntita#pol-univ
+// * $tipoEntita#cc-priv
+// * $tipoEntita#cc-priv-a
+// * $tipoEntita#cc-priv-na
+// * $tipoEntita#dist-san
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsMmgPlsRoles
@@ -425,14 +425,14 @@ Description: "MDS - Aziende Ospedaliere (HSP11)"
 // * $UriHsp#160910 "AO UNIV. 'OO RR FOGGIA'"
 
 
-ValueSet: VsIstatStatoCivile
-Id: istat-statoCivile-vs
-Title: "ISTAT - Stato Civile"
-Description: "ISTAT - Stato Civile"
-//-------------------------------------------------------------------------------------------
-* ^experimental = false
-* ^status = #active
-* include codes from  system $statoCivile
+// ValueSet: VsIstatStatoCivile
+// Id: istat-statoCivile-vs
+// Title: "ISTAT - Stato Civile"
+// Description: "ISTAT - Stato Civile"
+// //-------------------------------------------------------------------------------------------
+// * ^experimental = false
+// * ^status = #active
+// * include codes from  system $statoCivile
 
 
 //----------------------------------------
